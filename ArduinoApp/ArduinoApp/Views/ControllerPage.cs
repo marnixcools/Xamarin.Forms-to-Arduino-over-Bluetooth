@@ -54,6 +54,8 @@ namespace ArduinoApp.Views
             try
             {
                 App.BluetoothClient.SendMessage(Serializer.Serialize((int)data), deviceId);
+
+                //App.BluetoothClient.SendMessage(64, deviceId);
             }
             catch (Exception ex)
             {
@@ -84,7 +86,7 @@ namespace ArduinoApp.Views
 
         private void ReleaseButton()
         {
-            SendBluetoothMessage(Direction.RELEASE);
+            ///SendBluetoothMessage(Direction.RELEASE);
         }
     }
 }

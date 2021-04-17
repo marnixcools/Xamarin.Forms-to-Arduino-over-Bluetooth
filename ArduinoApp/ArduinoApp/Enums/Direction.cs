@@ -6,10 +6,10 @@ namespace ArduinoApp.Enums
 {
     public enum Direction : int
     {
-        FORWARD = 10,
-        RIGHT = 11,
-        RELEASE = 12,
-        LEFT = 13,
-        BACKWARD = 14
+        FORWARD = 70,
+        RIGHT = 82,
+        RELEASE = 87,
+        LEFT = 76,
+        BACKWARD = 66
     }
 }
